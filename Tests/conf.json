@@ -82,10 +82,6 @@
             "timeout": 300
         },
         {
-            "integrations": "RedLock",
-            "playbookID": "RedLockTest"
-        },
-        {
             "integrations": "Symantec Endpoint Protection",
             "playbookID": "sep_-_test_endpoint_search"
         },
@@ -359,10 +355,6 @@
             "playbookID": "test-domain-indicator"
         },
         {
-            "integrations": "RedLock",
-            "playbookID": "RedLockTest"
-        },
-        {
             "integrations": "Cybereason",
             "playbookID": "Cybereason Test"
         },
@@ -378,19 +370,28 @@
             "timeout": 1200
         },
         {
+            "integrations": "ThreatExchange",
+            "playbookID": "ThreatExchange-test"
+        },
+        {
             "integrations": "Recorded Future",
             "playbookID": "Recorded Future Test",
             "nightly": true
+        },
+        {
+            "integrations": "RTIR",
+            "playbookID": "RTIR Test"
         }
     ],
     "skipped": [
         {
-            "integrations": "VMware",
-            "playbookID": "VMWare Test"
+            "integrations": "RedLock",
+            "playbookID": "RedLockTest",
+            "nightly": true
         },
         {
-            "integrations": "ThreatExchange",
-            "playbookID": "ThreatExchange-test"
+            "integrations": "VMware",
+            "playbookID": "VMWare Test"
         },
         {
             "integrations": "Anomali ThreatStream",
